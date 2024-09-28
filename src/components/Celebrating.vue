@@ -1,6 +1,6 @@
 <template>
-    <div class=" flex justify-between gap-4 items-center px-9 py-16">
-        <section class=" flex flex-col justify-between w-full gap-4">
+    <div class=" flex md:flex-row flex-col justify-between gap-4 items-center md:px-9 py-16">
+        <section class=" md:px-0 px-3 flex flex-col justify-between w-full gap-4">
             <h1 class="font-love font-semibold text-4xl text-red-700 tracking-wider">
                 Celebrating Our Beautiful Journey Together:
             </h1>
@@ -20,7 +20,7 @@
             </ul>
         </section>
         <section class=" w-full bg-gray-100 py-9 rounded-3xl">
-            <Modal :thumb="thumbProps.thumb" :thumbWidth="thumbProps.thumbWidth" :thumbHeight="thumbProps.thumbHeight"
+            <ModalVideo :thumb="thumbProps.thumb" :thumbWidth="thumbProps.thumbWidth" :thumbHeight="thumbProps.thumbHeight"
                 :thumbAlt="thumbProps.thumbAlt" :video="thumbProps.video" :videoWidth="thumbProps.videoWidth"
                 :videoHeight="thumbProps.videoHeight" />
         </section>
@@ -28,7 +28,7 @@
 </template>
 
 <script setup>
-import Modal from './Modalvideo.vue'
+import ModalVideo from '@/components/ModalVideo.vue';
 
 const thumbProps = {
     thumb: "/celebrating.jpg",

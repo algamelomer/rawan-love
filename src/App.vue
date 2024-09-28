@@ -6,7 +6,7 @@ import Memory_Lane from './components/Memory_Lane.vue'
 import Timer from './components/Timer.vue'
 import Heart from './components/Heart.vue'
 import Celebrating from './components/Celebrating.vue'
-
+import keep_on_loving_you from './components/keep_on_loving_you.vue'
 </script>
 
 <template>
@@ -28,6 +28,9 @@ import Celebrating from './components/Celebrating.vue'
   </div>
   <div id="heart">
     <Heart />
+  </div>
+  <div>
+    <keep_on_loving_you />
   </div>
 </template>
 

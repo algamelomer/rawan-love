@@ -1,7 +1,7 @@
 <template>
 
-    <div class=" flex px-9 py-16 justify-between items-center gap-6">
-        <section class=" w-full flex flex-col gap-2">
+    <div class=" flex md:px-9 py-16 justify-between items-center gap-6 md:flex-row flex-col">
+        <section class=" w-full flex flex-col gap-2 px-3 md:px-0">
             <h1 class=" font-bold text-4xl font-love text-red-700">
                 When i felt in love for you
             </h1>

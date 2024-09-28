@@ -4,7 +4,7 @@
         <!-- Click Me text -->
         <transition name="fade">
             <p
-                class="animated-text control-text tracking-wider absolute text-white text-4xl font-bold w-full text-center top-20">
+                class="animated-text control-text tracking-wider absolute text-white text-2xl sm:text-4xl font-bold w-full text-center top-20">
                 Click on Omar's heart to find out whats in there!
             </p>
         </transition>
