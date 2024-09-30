@@ -13,6 +13,7 @@
     "gsap": "^3.12.5",
     "gsap-trial": "^3.12.5",
     "register-service-worker": "^1.7.2",
+    "sweetalert2": "^11.14.1",
     "swiper": "^11.1.14",
     "three": "^0.169.0",
     "three-stdlib": "^2.33.0",

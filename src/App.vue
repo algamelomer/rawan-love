@@ -7,6 +7,26 @@ import Timer from './components/Timer.vue'
 import Heart from './components/Heart.vue'
 import Celebrating from './components/Celebrating.vue'
 import keep_on_loving_you from './components/keep_on_loving_you.vue'
+import Swal from 'sweetalert2'
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  Swal.fire({
+    title: 'working on it my love',
+    text: 'This website is still under construction, so you may encounter errors, incomplete work, or response issues.',
+    icon: 'warning',
+    confirmButtonText: 'I Understand',
+    backdrop: `
+      rgba(0,0,123,0.4)
+      url("https://i.gifer.com/ZZ5H.gif")
+      left top
+      no-repeat
+    `,
+    allowOutsideClick: false,
+    allowEscapeKey: false
+  })
+})
+
 </script>
 
 <template>
